@@ -6,10 +6,10 @@ browser = webdriver.Chrome("chromedriver")
 browser.get('https://www.facebook.com/')
 #find the username field and enter the email example@yahoo.com.
 username = browser.find_elements_by_css_selector("input[name=email]")
-username[0].send_keys('sachee.sachee@gmail.com')
+username[0].send_keys('s@gmail.com')
 #find the password field and enter the password password.
 password = browser.find_elements_by_css_selector("input[name=pass]")
-password[0].send_keys('0714326830')
+password[0].send_keys('*******')
 #find the login button and click it.
 loginButton = browser.find_elements_by_css_selector("input[type=submit]")
 loginButton[0].click()
